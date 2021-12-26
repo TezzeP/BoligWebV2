@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TezzeP\\Documents\\GitHub\\BoligWebV2\\Shared\\Shared.csproj": {}
+    "E:\\GItHub\\BoligWebV2\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TezzeP\\Documents\\GitHub\\BoligWebV2\\Shared\\Shared.csproj": {
+    "E:\\GItHub\\BoligWebV2\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TezzeP\\Documents\\GitHub\\BoligWebV2\\Shared\\Shared.csproj",
+        "projectUniqueName": "E:\\GItHub\\BoligWebV2\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\TezzeP\\Documents\\GitHub\\BoligWebV2\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\TezzeP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TezzeP\\Documents\\GitHub\\BoligWebV2\\Shared\\obj\\",
+        "projectPath": "E:\\GItHub\\BoligWebV2\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Tezze\\.nuget\\packages\\",
+        "outputPath": "E:\\GItHub\\BoligWebV2\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Programmer\\ProgramData\\Microsoft\\Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TezzeP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tezze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

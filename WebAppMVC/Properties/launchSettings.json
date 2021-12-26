@@ -4,7 +4,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:28691",
-      "sslPort": 44342
+      "sslPort": 44397
     }
   },
   "profiles": {
@@ -27,9 +27,9 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "launchUrl": "http://localhost:49160",
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": false
     }
   }
 }

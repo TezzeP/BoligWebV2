@@ -3,28 +3,36 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using BoligWebApp.Helper;
+using WebAppMVC.Helper;
 using Newtonsoft.Json;
 using Shared;
 
 namespace BoligWebApp.Controllers
 {
-    public class PostController : Controller
+    public class AuthController : Controller
     {
         HttpClientHelperApi _api = new();
-        
-        public ActionResult Create()
+
+        public ActionResult Index()
         {
             return View();
         }
 
+        
+
         public async Task<IActionResult> Create(RegisterViewModel model)
         {
+            
+
 
             HttpClient client = _api.Initial();
             var response = await client.PostAsJsonAsync("api/Auth/Register", model);
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
 
-            return View(model);
+            }
+            return BadRequest();        
         }
         public async Task<IActionResult> Delete(int? id)
         {

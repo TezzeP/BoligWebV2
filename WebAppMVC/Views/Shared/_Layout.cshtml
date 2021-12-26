@@ -25,12 +25,23 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Create">Register</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Index">Register</a>
                         </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Index">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login" title="Manage">LogIn</a>
+                        </li>
+                        
+
                     </ul>
                 </div>
             </div>
         </nav>
+       
     </header>
     <div class="container">
         <main role="main" class="pb-3">
