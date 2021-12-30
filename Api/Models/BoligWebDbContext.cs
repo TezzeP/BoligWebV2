@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Shared;
 
 namespace Api.Models
 {
@@ -14,7 +11,9 @@ namespace Api.Models
         {
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<DokumentViewModel> DokumentViewModel { get; set; }       
+
+        public DbSet<BlogPostViewModel> BlogPostViewModel { get; set; }
         
     }
 }

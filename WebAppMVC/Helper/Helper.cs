@@ -9,7 +9,7 @@ namespace WebAppMVC.Helper
         public HttpClient Initial()
         {
             var Client = new HttpClient();
-            Client.BaseAddress = new Uri("http://localhost:34139/"); //50651
+            Client.BaseAddress = new Uri("http://localhost:34139/"); 
             return Client;
         }
 

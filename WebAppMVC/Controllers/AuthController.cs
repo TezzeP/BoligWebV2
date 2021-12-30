@@ -17,16 +17,13 @@ namespace BoligWebApp.Controllers
         {
             return View();
         }
-
         
-
         public async Task<IActionResult> Create(RegisterViewModel model)
         {
-            
-
-
             HttpClient client = _api.Initial();
+
             var response = await client.PostAsJsonAsync("api/Auth/Register", model);
+
             if (response.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
@@ -34,22 +31,26 @@ namespace BoligWebApp.Controllers
             }
             return BadRequest();        
         }
-        public async Task<IActionResult> Delete(int? id)
+
+        public ActionResult LoginView()
         {
-            var post = new RegisterViewModel();
-            HttpClient client = _api.Initial();
-            HttpResponseMessage res = await client.DeleteAsync("api/Posts/{id}");
-
-            if (res.IsSuccessStatusCode)
-            {
-                var result = res.Content.ReadAsStringAsync().Result;
-                post = JsonConvert.DeserializeObject<RegisterViewModel> (result);
-            }
-
-            return View(post);
-
+            return View();
         }
-        
+
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            HttpClient client = _api.Initial();
+
+            var response = await client.PostAsJsonAsync("api/Auth/Login", model);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index", response);
+
+            }
+            return BadRequest();
+        }
+
     }
 }
 

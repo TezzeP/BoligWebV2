@@ -235,5 +235,16 @@ E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\WebAppMVC.dll
 E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\ref\WebAppMVC.dll
 E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\WebAppMVC.pdb
 E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\WebAppMVC.genruntimeconfig.cache
-E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\Auth\Index.cshtml.g.cs
 E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\Auth\Create.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\Auth\Index.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\Auth\LoginView.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\Dokument\Index.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\Dokument\Details.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\CreateView.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\Create.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\Index.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\Details.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\EditView.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\DeleteView.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\Delete.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\Edit.cshtml.g.cs
