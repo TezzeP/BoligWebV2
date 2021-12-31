@@ -248,3 +248,4 @@ E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\EditView.cs
 E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\DeleteView.cshtml.g.cs
 E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\Delete.cshtml.g.cs
 E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\BlogPost\Edit.cshtml.g.cs
+E:\GItHub\BoligWebV2\WebAppMVC\obj\Debug\net5.0\Razor\Views\Auth\Login.cshtml.g.cs

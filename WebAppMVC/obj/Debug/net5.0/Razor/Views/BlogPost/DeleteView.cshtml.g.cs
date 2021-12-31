@@ -26,8 +26,15 @@ using WebAppMVC.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\GItHub\BoligWebV2\WebAppMVC\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9ebe9ef89767b75878bfd2a0bfd9159648a9662b", @"/Views/BlogPost/DeleteView.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3d71c890daac151288336527d688967613a7d246", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5d0869d5b0c38935f6ce17f103a5e45663b7e35a", @"/Views/_ViewImports.cshtml")]
     public class Views_BlogPost_DeleteView : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Shared.BlogPostViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -197,9 +204,9 @@ using WebAppMVC.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n    \r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ebe9ef89767b75878bfd2a0bfd9159648a9662b9241", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ebe9ef89767b75878bfd2a0bfd9159648a9662b9416", async() => {
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Delete\" class=\"btn btn-danger\" /> |\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ebe9ef89767b75878bfd2a0bfd9159648a9662b9588", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ebe9ef89767b75878bfd2a0bfd9159648a9662b9763", async() => {
                     WriteLiteral("Back to List");
                 }
                 );

@@ -17,6 +17,9 @@ namespace Shared
         [StringLength(50, MinimumLength = 5)]
         public string Password { get; set; }
 
+        [Display(Name = "Remember me")]
+        public bool RememberMe { get; set; }
+
     }
 }
 

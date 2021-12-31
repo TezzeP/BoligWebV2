@@ -32,12 +32,12 @@ namespace Api.Services
 
         private UserManager<IdentityUser> _userManger;
         private IConfiguration _configuration;
-        //private IMailService _mailService;
-        public UserService(UserManager<IdentityUser> userManager, IConfiguration configuration /*IMailService mailService*/)
+        
+        public UserService(UserManager<IdentityUser> userManager, IConfiguration configuration)
         {
             _userManger = userManager;
             _configuration = configuration;
-            //_mailService = mailService;
+            
         }
 
         public async Task<UserManagerResponse> RegisterUserAsync(RegisterViewModel model)
@@ -68,11 +68,7 @@ namespace Api.Services
                 var validEmailToken = WebEncoders.Base64UrlEncode(encodedEmailToken);
 
                 string url = $"{_configuration["AppUrl"]}/api/auth/confirmemail?userid={identityUser.Id}&token={validEmailToken}";
-
-                //await _mailService.SendEmailAsync(identityUser.Email, "Confirm your email", $"<h1>Welcome to Auth Demo</h1>" +
-                //    $"<p>Please confirm your email by <a href='{url}'>Clicking here</a></p>");
-
-
+                
                 return new UserManagerResponse
                 {
                     Message = "User created successfully!",
@@ -181,9 +177,6 @@ namespace Api.Services
             var validToken = WebEncoders.Base64UrlEncode(encodedToken);
 
             string url = $"{_configuration["AppUrl"]}/ResetPassword?email={email}&token={validToken}";
-
-            //await _mailService.SendEmailAsync(email, "Reset Password", "<h1>Follow the instructions to reset your password</h1>" +
-            //    $"<p>To reset your password <a href='{url}'>Click here</a></p>");
 
             return new UserManagerResponse
             {

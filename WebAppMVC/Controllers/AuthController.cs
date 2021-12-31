@@ -7,7 +7,7 @@ using WebAppMVC.Helper;
 using Newtonsoft.Json;
 using Shared;
 
-namespace BoligWebApp.Controllers
+namespace WebAppMVC.Controllers
 {
     public class AuthController : Controller
     {
@@ -26,7 +26,7 @@ namespace BoligWebApp.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Index" , "Home");
 
             }
             return BadRequest();        
